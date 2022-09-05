@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formulario Adity Iberocar</title>
+    <meta charset="UTF-8">
+    <link href="img/icons/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css?v=66110" rel="stylesheet" type="text/css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="js/main.js?v=66110" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js" type="text/javascript"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#">
+  </head>
+  <body>
+    <div id="sections">
+      <section class="section--form">
+        <div class="section__loader"></div>
+        <div class="section__wrap">
+          <div class="section__body">
+            <div class="section__header"> 
+              <h3>¡Agenda tu mantención en Iberocar!</h3>
+              <div class="section__steps">
+                <div class="section__step section__step--1 current"><span>1</span></div>
+                <div class="section__step section__step--2"><span>2</span></div>
+                <div class="section__step section__step--3"><span>3</span></div>
+              </div>
+            </div>
+            <div class="section__form">
+              <form class="form">
+                <div class="section__form__step section__form__step--1 section__form__step--show dscroll">
+                  <div class="cols">
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Marca </div>
+                        <div class="form__input">
+                          <select name="#">
+                            <option value="#">Dodge</option>
+                            <option value="#">Fiat</option>
+                            <option value="#">RAM</option>
+                            <option value="#">Infinity</option>
+                            <option value="#">Chery</option>
+                            <option value="#">JMC</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Modelo </div>
+                        <div class="form__input">
+                          <select name="#">
+                            <option value="#">Facilisis magna
+                            </option>
+                            <option value="#">Aliquam sem
+                            </option>
+                            <option value="#">Lobortis ad
+                            </option>
+                            <option value="#">Ut sociosqu
+                            </option>
+                            <option value="#">Hendrerit feugiat
+                            </option>
+                            <option value="#">Inceptos eros
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Tipo de servicio </div>
+                        <div class="form__input">
+                          <select name="#">
+                            <option value="#">Lectus risus
+                            </option>
+                            <option value="#">Neque auctor
+                            </option>
+                            <option value="#">Luctus per
+                            </option>
+                            <option value="#">Ligula cursus
+                            </option>
+                            <option value="#">Suspendisse nunc
+                            </option>
+                            <option value="#">Laoreet eget
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Kilometraje</div>
+                        <div class="form__input">
+                          <select name="#">
+                            <option value="#">Placerat tempor
+                            </option>
+                            <option value="#">Suscipit vivamus
+                            </option>
+                            <option value="#">Scelerisque sed
+                            </option>
+                            <option value="#">Odio non
+                            </option>
+                            <option value="#">Mauris sapien
+                            </option>
+                            <option value="#">Nisl habitant
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                      <div class="form__info"> <span>* Para agendamientos de Garantías y Recall llamar a nuestro Call Center 6003757000</span></div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                      <div class="form__element"> 
+                        <div class="form__title">Sucursal</div>
+                        <div class="form__input">
+                          <select name="#">
+                            <option value="#">Sagittis netus
+                            </option>
+                            <option value="#">Vestibulum nam
+                            </option>
+                            <option value="#">Velit metus
+                            </option>
+                            <option value="#">Sociosqu id
+                            </option>
+                            <option value="#">Hac nullam
+                            </option>
+                            <option value="#">Scelerisque adipiscing
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                      <div class="form__element form__element--checkbox">
+                        <div class="form__checkbox"> 
+                          <label>
+                            <input type="checkbox" name="#" value="#">Servicio Retiro y Entrega a domicilio habilitado para comunas de: Lo Barnechea, Las Condes, Vitacura, La Reina, Providencia. Costo Ida y regreso $ 30.000. Sujeto a confirmación. Seleccionar si requiere servicio.
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                      <div class="form__buttons"><a data-next-form-1 class="btn">Siguiente</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section__form__step section__form__step--2 dscroll">
+                  <div class="section__profile">
+                    <div class="section__avatar"> <img src="img/avatar-1.jpg"></div>
+                    <div class="section__profile__content"> 
+                      <div class="section__item">Sucursal:<span>El Cortijo</span></div>
+                      <div class="section__item">Asesor:<span>Asesor Virtual</span></div>
+                      <div class="section__item">Fecha:<span>Miercoles, 31/08/2022</span></div>
+                      <div class="section__item">Hora:<span>08:30 am</span></div>
+                      <div class="section__actions">
+                        <div class="section__radio">
+                          <label>
+                            <input type="radio" name="option" value="1">Reservar
+                          </label>
+                        </div>
+                        <div class="section__calendar">
+                          <label>
+                            <input type="text" id="date_1" name="#" class="datetimepicker">Más Horas
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section__profile">
+                    <div class="section__avatar"> <img src="img/avatar-2.jpg"></div>
+                    <div class="section__profile__content"> 
+                      <div class="section__item">Sucursal:<span>El Cortijo</span></div>
+                      <div class="section__item">Asesor:<span>Asesor Virtual</span></div>
+                      <div class="section__item">Fecha:<span>Miercoles, 31/08/2022</span></div>
+                      <div class="section__item">Hora:<span>08:30 am</span></div>
+                      <div class="section__actions">
+                        <div class="section__radio">
+                          <label>
+                            <input type="radio" name="option" value="2">Reservar
+                          </label>
+                        </div>
+                        <div class="section__calendar">
+                          <label>
+                            <input type="text" id="date_2" name="#" class="datetimepicker">Más Horas
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section__profile">
+                    <div class="section__avatar"> <img src="img/avatar-1.jpg"></div>
+                    <div class="section__profile__content"> 
+                      <div class="section__item">Sucursal:<span>El Cortijo</span></div>
+                      <div class="section__item">Asesor:<span>Asesor Virtual</span></div>
+                      <div class="section__item">Fecha:<span>Miercoles, 31/08/2022</span></div>
+                      <div class="section__item">Hora:<span>08:30 am</span></div>
+                      <div class="section__actions">
+                        <div class="section__radio">
+                          <label>
+                            <input type="radio" name="option" value="3">Reservar
+                          </label>
+                        </div>
+                        <div class="section__calendar">
+                          <label>
+                            <input type="text" id="date_3" name="#" class="datetimepicker">Más Horas
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form__buttons"><a data-prev-form-1 class="btn btn--secondary">Volver</a><a data-next-form-2 class="btn">Siguiente</a></div>
+                </div>
+                <div class="section__form__step section__form__step--3 dscroll">
+                  <div class="cols">
+                    <div class="col-xs-12">
+                      <div class="section__infos">
+                        <div class="section__info">Marca: <span>Dodge</span></div>
+                        <div class="section__info">Modelo: <span>Durango</span></div>
+                        <div class="section__info">Servicio:<span>Mantenimiento</span></div>
+                        <div class="section__info">Kilometraje:<span>10 MIL KM</span></div>
+                      </div>
+                      <div class="section__infos">
+                        <div class="section__info">Sucursal: <span>Cantagallo </span></div>
+                        <div class="section__info">Asesor: <span>Francisco Torrejón </span></div>
+                        <div class="section__info">Fecha: <span>Miércoles, 03/08/2022</span></div>
+                        <div class="section__info">Hora: <span>08:30</span></div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Rut</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Patente</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Nombre</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Apellido Paterno</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Apellido Materno</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Dirección</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Comuna</div>
+                        <div class="form__input">
+                          <input type="text" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Teléfono Móvil</div>
+                        <div class="form__input">
+                          <input type="number" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Email</div>
+                        <div class="form__input">
+                          <input type="number" name="#">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6"> 
+                      <div class="form__element"> 
+                        <div class="form__title">Fecha</div>
+                        <div class="form__input">
+                          <input type="text" id="date_1" name="#" class="datetimepicker">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                      <div class="form__buttons"> <a data-prev-form-2 class="btn btn--secondary">Volver</a>
+                        <button class="btn">Agendar ahora <span class="fa fa-arrow-right"></span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
